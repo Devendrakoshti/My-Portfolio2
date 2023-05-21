@@ -20,14 +20,18 @@
 }
 
 .main .menu {
+    height: 450px;
+    width: 100%;
     position: absolute;
-    top: 0;
+    top: 25px;
     left: 0;
     text-align: center;
+    /* background-color: #bbc8dd; */
 }
 
-.main .menu ul {
-    margin: 40px 0px 0px 1200px;
+.main .menu .extra {
+    display: flex;
+    justify-content: space-between;
 }
 
 .main .menu ul li {
@@ -361,8 +365,8 @@
 .contact .me .button {
     height: 40px;
     width: 100px;
-    margin: 20px 0 0 190px;
     background: transparent;
+    margin-top: 40px;
 }
 
 .contact .me .button:hover {
@@ -405,24 +409,21 @@
 
 .footer .footer_social {
     height: 210px;
+    width: 50%;
     padding-top: 65px;
-}
-
-.footer .footer_social .icon {
-    margin-left: 195px;
+    text-align: center;
 }
 
 .footer .footer_social .icon i {
-    /* padding: 10px 10px; */
     height: 40px;
     width: 40px;
     font-size: 1.3rem;
     background-color: #000;
     color: #fff;
     border-radius: 50%;
-    text-align: center;
     line-height: 40px;
     margin-right: 15px;
+    margin-bottom: 10px;
     transition: 0.5s;
 }
 
@@ -440,8 +441,4 @@
     bottom: 20px;
     right: 10px;
     background-color: #2e4975;
-}
-
-.footer .footer_social p {
-    margin: 17px 0px 0px 170px;
 }
