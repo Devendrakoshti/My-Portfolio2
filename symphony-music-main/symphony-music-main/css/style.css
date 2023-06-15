@@ -115,8 +115,8 @@
     font-family: 'Sofia', cursive;
     letter-spacing: 3px;
     position: absolute;
-    top: 30px;
-    left: 65px;
+    top: 10%;
+    left: 10%;
 }
 
 .music .p1 {
@@ -213,8 +213,8 @@
     width: 180px;
     border: 1px solid #fff;
     position: absolute;
-    top: 105px;
-    left: 60px;
+    top: 50%;
+    left: 19%;
     transform: rotate(45deg);
     opacity: 0;
     transition: 1s;
@@ -436,11 +436,6 @@
     padding: 55px 0 0 50px;
 }
 
-.black .exa .lov .tue .com {
-    /* margin: 50px 0 0 50px; */
-    /* margin-bottom: 50px; */
-}
-
 .black .exa .lov .tue .com a {
     letter-spacing: 8px;
     color: #e60004;
@@ -473,27 +468,33 @@
     display: flex;
     align-items: center;
     /* flex-wrap: wrap; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .sub .new {
+    width: 48%;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
     text-align: center;
+    /* background-color: #00ffbe; */
+}
+
+.sub .yul {
+    width: 52%;
+    /* background-color: #833ab4; */
 }
 
 .sub .him {
     height: 50px;
-    width: 420px;
-    padding-left: 15px;
+    width: 72%;
     font-size: 16px;
     outline: none;
 }
 
 .sub .send {
     height: 50px;
-    width: 145px;
+    width: 26%;
     font-size: 16px;
     outline: none;
     background: #22d8aa;
@@ -712,30 +713,24 @@
 
 .stat .slack .gfd .mal .gra {
     background: #3fcbef;
-    height: 30px;
-    width: 270px;
-    font-weight: bold;
+    padding: 0 15PX;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
     text-align: center;
     line-height: 30px;
     position: absolute;
-    top: 360px;
-    left: -220px;
     transition: .2s;
+    top: 70%;
+    left: -100%;
 }
 
 .stat .slack .gfd .mal .x {
-    width: 250px;
-    top: 395px;
-    left: -290px;
+    margin-top: 35PX;
     transition: .4s;
 }
 
 .stat .slack .gfd .mal .y {
-    width: 320px;
-    top: 430px;
-    left: -270px;
+    margin-top: 70PX;
     transition: .6s;
 }
 
@@ -748,7 +743,7 @@
 }
 
 .stat .slack .gfd .mal:hover .gra {
-    left: 38px;
+    left: 10%;
 }
 
 .foot {
