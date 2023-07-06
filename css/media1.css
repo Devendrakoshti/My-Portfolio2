@@ -1,6 +1,6 @@
-        @media (max-width:900px) {
+        @media (max-width:992px) {
             .main .main1 {
-                height: 450px;
+                height: 500px;
                 width: 100%;
             }
             .main .menu ul li {
@@ -19,11 +19,9 @@
             .project_tag .img {
                 height: 200px;
                 width: 200px;
-                /* top: -8%; */
-                left: 35%;
             }
             .project_tag .project_heading {
-                font-size: 3rem;
+                font-size: 3.2rem;
             }
             .project_tag .project_farming {
                 width: 100%;
@@ -40,7 +38,7 @@
                 height: 400px;
             }
             .project_tag .project_farming::before {
-                font-size: 3.5rem;
+                /* font-size: 3.5rem; */
                 top: -0px;
                 right: -0px;
             }
@@ -65,7 +63,7 @@
                 width: 30px;
             }
             .project_requid .project_name {
-                font-size: 1.9rem;
+                font-size: 4rem;
             }
             .skill_tag {
                 height: 900px;
@@ -101,7 +99,7 @@
             }
         }
         
-        @media (max-width:600px) {
+        @media (max-width:772px) {
             .main .main1 {
                 height: 400px;
                 width: 100%;

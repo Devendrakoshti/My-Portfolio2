@@ -449,11 +449,12 @@
     .everest .camps .join .red .kill {
         margin-top: 20px;
         display: flex;
+        justify-content: space-between;
     }
     
     .everest .camps .join .red .kill .green {
         color: #01d07e;
-        margin-right: 70px;
+        /* margin-right: 70px; */
     }
     /* everest div end */
     /* submit div start */

@@ -21,6 +21,7 @@
     flex-wrap: wrap;
     text-align: center;
     position: relative;
+    justify-content: space-around;
 }
 
 .main .navbar h1 {
@@ -140,7 +141,7 @@
 .rock .dj {
     height: 470px;
     width: 310px;
-    background-color: brown;
+    /* background-color: brown; */
     margin-right: 20px;
 }
 
